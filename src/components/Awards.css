@@ -1,0 +1,19 @@
+.awards-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-bottom: 3rem;
+  }
+  
+  .award-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .award-images img {
+    max-width: 100px;
+    height: auto;
+    margin: 10px; 
+  }
+  

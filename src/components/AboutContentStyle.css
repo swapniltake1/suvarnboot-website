@@ -1,0 +1,42 @@
+.about{
+    width: 100%;
+    margin: 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.about .left{
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    max-width: 1000px;
+
+}
+
+.about .left p{
+    margin: 1.2rem 0;
+}
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-gallery img {
+    width: 150px; 
+    height: auto; 
+    margin: 5px;
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .image-gallery img {
+      width: 150px; 
+    }
+  }
+  
+  
